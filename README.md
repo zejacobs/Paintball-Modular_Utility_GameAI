@@ -1,4 +1,4 @@
-# Paintball
+# Paintball (Simple Modular/Utility AI)
 The goal of this project was to create a fast-paced arcade style shooter game which has the player face off against progressively harder waves of enemies as they advance levels. The Modular/Utility AI component was used to dynamically generate and select enemy cover positions from the player, determine when they should shoot at player, and whether they should retreat to reload if they are low on ammo. 
 ## Game Design
 This project was designed to play fairly straight forward and be easy to pick up and play. It should also be fairly easy to  understand the decision-making calculations and game actions taking place. The game takes place in a pre-defined rectangular area and contains five main game entities:

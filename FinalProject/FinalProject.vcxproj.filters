@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{52745959-e46b-4d5d-991f-e9897ad0a5f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game/UI">
+      <UniqueIdentifier>{bbf66274-2e3d-40df-b1da-ad53039fb48e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{484077fc-1c26-41df-b49c-8d4e240f97a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ModularAI">
+      <UniqueIdentifier>{bc928e8c-e5ef-4635-8e8b-7b200ff6a1ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ModularAI\Considerations">
+      <UniqueIdentifier>{8c78572f-9209-4910-b2fb-163398f8e462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ModularAI\Aggregators">
+      <UniqueIdentifier>{6afe8e8c-5923-4d64-b1f9-188506c0d602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Projectiles">
+      <UniqueIdentifier>{a9a83426-68d0-4770-8992-fed4da98baf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ModularAI\Generators">
+      <UniqueIdentifier>{ffb0110c-9554-4566-a7ec-47772066a7b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ModularAI\ActionOptions">
+      <UniqueIdentifier>{3b298203-10af-4103-9440-093d7c962f77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game/UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller_UI.cpp">
+      <Filter>Source Files\Game/UI</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Game/UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec2.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Game/UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="PreferredDistance.cpp">
+      <Filter>Source Files\ModularAI\Considerations</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveIndirectlyTowards.cpp">
+      <Filter>Source Files\ModularAI\Considerations</Filter>
+    </ClCompile>
+    <ClCompile Include="EvaluateCoverPosition.cpp">
+      <Filter>Source Files\ModularAI\Aggregators</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateAllCover.cpp">
+      <Filter>Source Files\ModularAI\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateCoverPosition.cpp">
+      <Filter>Source Files\ModularAI\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="ReloadPoint.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="NeedsAmmo.cpp">
+      <Filter>Source Files\ModularAI\Considerations</Filter>
+    </ClCompile>
+    <ClCompile Include="EvaluateAmmoNeed.cpp">
+      <Filter>Source Files\ModularAI\Aggregators</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetInRange.cpp">
+      <Filter>Source Files\ModularAI\Considerations</Filter>
+    </ClCompile>
+    <ClCompile Include="LineOfSight.cpp">
+      <Filter>Source Files\ModularAI\Considerations</Filter>
+    </ClCompile>
+    <ClCompile Include="EvaluateTakeShot.cpp">
+      <Filter>Source Files\ModularAI\Aggregators</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveToCover.cpp">
+      <Filter>Source Files\ModularAI\ActionOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootAtPlayer.cpp">
+      <Filter>Source Files\ModularAI\ActionOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveToReload.cpp">
+      <Filter>Source Files\ModularAI\ActionOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveTowardPlayer.cpp">
+      <Filter>Source Files\ModularAI\Considerations</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entity.h">
+      <Filter>Source Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\Game/UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller_UI.h">
+      <Filter>Source Files\Game/UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Source Files\Game/UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Source Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatFunctor.h">
+      <Filter>Source Files\ModularAI</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance.h">
+      <Filter>Source Files\ModularAI</Filter>
+    </ClInclude>
+    <ClInclude Include="PreferredDistance.h">
+      <Filter>Source Files\ModularAI\Considerations</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveIndirectlyTowards.h">
+      <Filter>Source Files\ModularAI\Considerations</Filter>
+    </ClInclude>
+    <ClInclude Include="EvaluateCoverPosition.h">
+      <Filter>Source Files\ModularAI\Aggregators</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Source Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateAllCover.h">
+      <Filter>Source Files\ModularAI\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateCoverPosition.h">
+      <Filter>Source Files\ModularAI\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="Cover.h">
+      <Filter>Source Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ReloadPoint.h">
+      <Filter>Source Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="NeedsAmmo.h">
+      <Filter>Source Files\ModularAI\Considerations</Filter>
+    </ClInclude>
+    <ClInclude Include="EvaluateAmmoNeed.h">
+      <Filter>Source Files\ModularAI\Aggregators</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetInRange.h">
+      <Filter>Source Files\ModularAI\Considerations</Filter>
+    </ClInclude>
+    <ClInclude Include="LineOfSight.h">
+      <Filter>Source Files\ModularAI\Considerations</Filter>
+    </ClInclude>
+    <ClInclude Include="EvaluateTakeShot.h">
+      <Filter>Source Files\ModularAI\Aggregators</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionOption.h">
+      <Filter>Source Files\ModularAI\ActionOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveToCover.h">
+      <Filter>Source Files\ModularAI\ActionOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootAtPlayer.h">
+      <Filter>Source Files\ModularAI\ActionOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveToReload.h">
+      <Filter>Source Files\ModularAI\ActionOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveTowardPlayer.h">
+      <Filter>Source Files\ModularAI\Considerations</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
